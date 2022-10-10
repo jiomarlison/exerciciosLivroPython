@@ -35,7 +35,7 @@ def prog4():
 
 def prog5():
     # 3.3.2.3 - Operador or
-    print( True or True)
+    print(True or True)
     print(True or False)
     print(False or True)
     print(False or False)
@@ -77,7 +77,7 @@ def prog8():
     print(s + "C")
     print(s + "D" * 4)
     print('X' + '-' * 10 + 'X')
-    print(s + 'x4= ' + s * 4 )
+    print(s + 'x4= ' + s * 4)
 
 
 def prog9():
@@ -108,12 +108,28 @@ def prog9():
     print('{:<12} tem {:<3} anos e R${:5.2f} no bolso'.format(nome, idade, grana))
 
     print('\n Composição com o f-String\n')
-    print(f'{nome} tem {idade} anos e R${grana} no bolso')
-    print(f'{nome:12} tem {idade:3} anos e R${grana:5.2f} no bolso')
-    print(f'{nome:12} tem {idade:03} anos e R${grana:5.2f} no bolso')
-    print(f'{nome:<12} tem {idade:<3} anos e R${grana:5.2f} no bolso')
+    print(f'\033[31m{nome} tem {idade} anos e R${grana} no bolso')
+    print(f'\033[32m{nome:12} tem {idade:3} anos e R${grana:5.2f} no bolso')
+    print(f'\033[33m{nome:12} tem {idade:03} anos e R${grana:5.2f} no bolso')
+    print(f'\033[34m{nome:<12} tem {idade:<3} anos e R${grana:5.2f} no bolso')
 
 
+def prog10():
+    #3.4.1.3 Fatiamento de Strings
+    s = "ABCDEFGHI"
+    print("\nFatiamento Simples\n")
+    print(s[0:2])
+    print(s[1:2])
+    print(s[2:4])
+    print(s[0:5])
+    print(s[1:8])
+    print("\nfatiamento com Direções\n")
+    print(s[:2])
+    print(s[1:])
+    print(s[0:-2])
+    print(s[:])
+    print(s[-1:])
+    print(s[-5:7])
+    print(s[-2:-1])
 
 
-prog9()
