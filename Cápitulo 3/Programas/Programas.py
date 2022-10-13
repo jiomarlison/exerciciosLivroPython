@@ -133,3 +133,21 @@ def prog10():
     print(s[-2:-1])
 
 
+def prog11():
+    # 3.7 - Entrada de Dados
+    x = input("Digite um numero: ")
+    print(x)
+
+    nome = input("Digite seu nome:")
+    print(f"Você digitou {nome}")
+    print(f"Olá, {nome}")
+
+
+def prog12():
+    # 3.7.1 - Conversão da entrada de dados
+    anos = int(input("Anos de serviço: "))
+    valor_por_ano = float(input("Valor por ano: "))
+    bonus = anos * valor_por_ano
+    print(f"Bônus de R$ {bonus:5.2f}")
+
+
