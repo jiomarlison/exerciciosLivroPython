@@ -1,5 +1,5 @@
 def prog1():
-    # 3.3 - Variaveis do tipo logico
+    # 3.3 — Variaveis do tipo logico
     resultado = True
     aprovado = False
 
@@ -115,7 +115,7 @@ def prog9():
 
 
 def prog10():
-    #3.4.1.3 Fatiamento de Strings
+    # 3.4.1.3 Fatiamento de Strings
     s = "ABCDEFGHI"
     print("\nFatiamento Simples\n")
     print(s[0:2])
@@ -134,7 +134,7 @@ def prog10():
 
 
 def prog11():
-    # 3.7 - Entrada de Dados
+    # 3.7 — Entrada de Dados
     x = input("Digite um numero: ")
     print(x)
 
@@ -144,10 +144,9 @@ def prog11():
 
 
 def prog12():
-    # 3.7.1 - Conversão da entrada de dados
+    # 3.7.1 — Conversão da entrada de dados
     anos = int(input("Anos de serviço: "))
     valor_por_ano = float(input("Valor por ano: "))
     bonus = anos * valor_por_ano
     print(f"Bônus de R$ {bonus:5.2f}")
-
 
