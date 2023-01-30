@@ -14,6 +14,6 @@ else:
                 if categoria == 5:
                     preco = 31
                 else:
-                    print('Categoria Invalida, digite um valor entre 1 e 5!')
+                    print('Categoria Invalida, digite um valor entre Cápitulo 6 e 5!')
                     preco = 0
 print(f'O preço do produto é: R${preco:6.2f}')

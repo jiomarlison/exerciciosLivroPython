@@ -1,11 +1,11 @@
 def prog1():
-    # 3.3 — Variaveis do tipo logico
+    # Cápitulo 8.Cápitulo 8 — Variaveis do tipo logico
     resultado = True
     aprovado = False
 
 
 def prog2():
-    # 3.3.1 - Operadores relacionais
+    # Cápitulo 8.Cápitulo 8.Cápitulo 6 - Operadores relacionais
     a = 1
     b = 5
     c = 2
@@ -20,13 +20,13 @@ def prog2():
 
 
 def prog3():
-    # 3.3.2.1 - Operador not
+    # Cápitulo 8.Cápitulo 8.Cápitulo 7.Cápitulo 6 - Operador not
     print(not True)
     print(not False)
 
 
 def prog4():
-    # 3.3.2.2 - Operador and
+    # Cápitulo 8.Cápitulo 8.Cápitulo 7.Cápitulo 7 - Operador and
     print(True and True)
     print(True and False)
     print(False and True)
@@ -34,7 +34,7 @@ def prog4():
 
 
 def prog5():
-    # 3.3.2.3 - Operador or
+    # Cápitulo 8.Cápitulo 8.Cápitulo 7.Cápitulo 8 - Operador or
     print(True or True)
     print(True or False)
     print(False or True)
@@ -55,7 +55,7 @@ def prog6():
 
 
 def prog7():
-    # 3.4 - Variaveis Strings
+    # Cápitulo 8.4 - Variaveis Strings
     print(len('A'))
     print(len('AB'))
     print(len(''))
@@ -72,7 +72,7 @@ def prog7():
 
 
 def prog8():
-    # 3.4.1 Operações com Strings
+    # Cápitulo 8.4.Cápitulo 6 Operações com Strings
     s = "ABC"
     print(s + "C")
     print(s + "D" * 4)
@@ -81,7 +81,7 @@ def prog8():
 
 
 def prog9():
-    # 3.4.1.2 - Compisição
+    # Cápitulo 8.4.Cápitulo 6.Cápitulo 7 - Compisição
     idade = 22
     print("[%d]" % idade)
     print("[%03d]" % idade)
@@ -109,13 +109,13 @@ def prog9():
 
     print('\n Composição com o f-String\n')
     print(f'\033[31m{nome} tem {idade} anos e R${grana} no bolso')
-    print(f'\033[32m{nome:12} tem {idade:3} anos e R${grana:5.2f} no bolso')
+    print(f'\033[32m{nome:12} tem {idade:Cápitulo 8} anos e R${grana:5.2f} no bolso')
     print(f'\033[33m{nome:12} tem {idade:03} anos e R${grana:5.2f} no bolso')
-    print(f'\033[34m{nome:<12} tem {idade:<3} anos e R${grana:5.2f} no bolso')
+    print(f'\033[34m{nome:<12} tem {idade:<Cápitulo 8} anos e R${grana:5.2f} no bolso')
 
 
 def prog10():
-    # 3.4.1.3 Fatiamento de Strings
+    # Cápitulo 8.4.Cápitulo 6.Cápitulo 8 Fatiamento de Strings
     s = "ABCDEFGHI"
     print("\nFatiamento Simples\n")
     print(s[0:2])
@@ -134,7 +134,7 @@ def prog10():
 
 
 def prog11():
-    # 3.7 — Entrada de Dados
+    # Cápitulo 8.7 — Entrada de Dados
     x = input("Digite um numero: ")
     print(x)
 
@@ -144,7 +144,7 @@ def prog11():
 
 
 def prog12():
-    # 3.7.1 — Conversão da entrada de dados
+    # Cápitulo 8.7.Cápitulo 6 — Conversão da entrada de dados
     anos = int(input("Anos de serviço: "))
     valor_por_ano = float(input("Valor por ano: "))
     bonus = anos * valor_por_ano
