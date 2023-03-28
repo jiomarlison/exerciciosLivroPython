@@ -1,7 +1,7 @@
-# Contagem de cédulas
+
 valor = int(input('Digite o valor a pagar: '))
 cedulas = 0
-atual = 50
+atual = 100
 apagar = valor
 
 while True:
