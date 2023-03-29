@@ -1,3 +1,4 @@
+# Simulação de uma fila de banco
 ultimo = 10
 fila = list(range(1, ultimo + 1))
 
