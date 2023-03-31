@@ -1,3 +1,4 @@
+# PILHA DE PRATOS
 prato = 5
 pilha = list(range(1, prato + 1))
 while True:
