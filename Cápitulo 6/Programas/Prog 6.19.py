@@ -1,4 +1,5 @@
 compras = []
+print('Digite os dados do produto (DIGITE fim para sair)')
 while True:
     produto = input("Produto: ")
     if produto.upper() == 'FIM':
